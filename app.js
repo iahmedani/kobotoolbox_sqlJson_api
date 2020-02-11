@@ -27,7 +27,7 @@ app.post('/', async (req, res) => {
         // console.log(error)
         res.status(500)
         res.json({
-            err: 'We encountered and system error, please contact system administrator'
+            err: 'We encountered and system error, please contact system administrator and advise the error'
         })
     }
 })
