@@ -8,5 +8,5 @@ services:
     ports:
       - "1433:1433"
     environment:
-      SA_PASSWORD: "ThisIsMyAwes0meDb"
+      SA_PASSWORD: "YourSafestPassword!Here!"
       ACCEPT_EULA: "Y"
