@@ -1,0 +1,34 @@
+{
+  "name": "kobotoolbox_sqljson_api",
+  "version": "1.0.0",
+  "description": "A Simple API to receive response from Kobotoolbox REST API services and stores data into MSSQL server using json",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iahmedani/kobotoolbox_sqlJson_api.git"
+  },
+  "keywords": [
+    "Kobo",
+    "Toolbox",
+    "MSSQL"
+  ],
+  "author": "ikahmedani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iahmedani/kobotoolbox_sqlJson_api/issues"
+  },
+  "homepage": "https://github.com/iahmedani/kobotoolbox_sqlJson_api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.9",
+    "mssql": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

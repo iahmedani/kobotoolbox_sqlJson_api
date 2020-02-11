@@ -1,0 +1,12 @@
+version: "3.2"
+services:
+  sql-server-db-19:
+    container_name: sql-server-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    volumes: 
+      - './data:/var/opt/mssql/data'
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "ThisIsMyAwes0meDb"
+      ACCEPT_EULA: "Y"
